@@ -11,7 +11,7 @@ interface Props {
 const AnalyzeResult: React.FC<Props> = ({ result }) => {
   const { description, header, rating } = result;
 
-  let theme = "red";
+  let theme;
 
   if (rating === "bad") {
     theme = "red";
@@ -36,7 +36,7 @@ const AnalyzeResult: React.FC<Props> = ({ result }) => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className={`flex-none fill-current text-${theme}-500 h-4 w-4`}
+            className={`flex-none fill-current text-orange-500 h-4 w-4`}
           >
             <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-.001 5.75c.69 0 1.251.56 1.251 1.25s-.561 1.25-1.251 1.25-1.249-.56-1.249-1.25.559-1.25 1.249-1.25zm2.001 12.25h-4v-1c.484-.179 1-.201 1-.735v-4.467c0-.534-.516-.618-1-.797v-1h3v6.265c0 .535.517.558 1 .735v.999z"></path>
           </svg>
@@ -45,7 +45,7 @@ const AnalyzeResult: React.FC<Props> = ({ result }) => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              className={`flex-none fill-current text-${theme}-500 h-4 w-4`}
+              className={`flex-none fill-current text-green-500 h-4 w-4`}
             >
               <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 16.518l-4.5-4.319 1.396-1.435 3.078 2.937 6.105-6.218 1.421 1.409-7.5 7.626z"></path>
             </svg>
