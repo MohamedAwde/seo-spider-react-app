@@ -22,7 +22,10 @@ function App() {
     setState({ ...state, loading: true, error: "" });
 
     try {
-      const { data } = await axios.post("http://localhost:8080/", { url });
+      const { data } = await axios.post(
+        "https://seo-pider-nodejs.vercel.app/",
+        { url }
+      );
       setState({ ...state, loading: false, data, error: "" });
     } catch (err: any) {
       let error = "";
