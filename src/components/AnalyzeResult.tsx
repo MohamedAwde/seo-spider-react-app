@@ -1,4 +1,5 @@
 import React from "react";
+import classnames from "classnames";
 
 interface Props {
   result: {
@@ -21,15 +22,25 @@ const AnalyzeResult: React.FC<Props> = ({ result }) => {
     theme = "green";
   }
 
-  theme.trim();
-
   return (
-    <div className={`bg-${theme}-100 p-5 w-full`}>
+    <div
+      className={classnames(
+        "p-5 w-full",
+        { "bg-red-100": theme === "red" },
+        { "bg-orange-100": theme === "orange" },
+        { "bg-green-100": theme === "green" }
+      )}
+    >
       <div className="flex space-x-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          className={`flex-none fill-current text-${theme}-500 h-4 w-4`}
+          className={classnames(
+            "flex-none fill-current  h-4 w-4",
+            { "text-red-500": theme === "red" },
+            { "text-orange-500": theme === "orange" },
+            { "text-green-500": theme === "green" }
+          )}
         >
           {rating === "bad" ? (
             <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.597 17.954l-4.591-4.55-4.555 4.596-1.405-1.405 4.547-4.592-4.593-4.552 1.405-1.405 4.588 4.543 4.545-4.589 1.416 1.403-4.546 4.587 4.592 4.548-1.403 1.416z"></path>
@@ -41,11 +52,35 @@ const AnalyzeResult: React.FC<Props> = ({ result }) => {
         </svg>
 
         <div className="leading-tight flex flex-col space-y-2">
-          <div className={`text-lg font-medium text-${theme}-700`}>
+          <div
+            className={classnames(
+              "text-lg font-medium",
+              {
+                "text-red-700": theme === "red",
+              },
+              {
+                "text-orange-700": theme === "orange",
+              },
+              {
+                "text-green-700": theme === "green",
+              }
+            )}
+          >
             {header}
           </div>
           <div
-            className={`flex-1 leading-snug text-sm text-${theme}-600 md:max-w-[70%] text-justify`}
+            className={classnames(
+              "flex-1 leading-snug text-sm md:max-w-[70%] text-justify",
+              {
+                "text-red-600": theme === "red",
+              },
+              {
+                "text-orange-600": theme === "orange",
+              },
+              {
+                "text-green-600": theme === "green",
+              }
+            )}
           >
             {description}
           </div>

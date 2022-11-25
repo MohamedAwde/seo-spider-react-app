@@ -1,6 +1,4 @@
 import { useState } from "react";
-import AnalyzeResult from "./components/AnalyzeResult";
-import LoadingSpinner from "./components/LoadingSpinner";
 import axios from "axios";
 import SubmitUrlForm from "./components/SubmitUrlForm";
 import AnalyzeResultSection from "./components/AnalyzeResultSection";
