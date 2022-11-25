@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/seo-spider-react-app/static/css/main.894ddd6a.css",
-    "main.js": "/seo-spider-react-app/static/js/main.8f6330d5.js",
+    "main.js": "/seo-spider-react-app/static/js/main.bd10e499.js",
     "index.html": "/seo-spider-react-app/index.html",
     "main.894ddd6a.css.map": "/seo-spider-react-app/static/css/main.894ddd6a.css.map",
-    "main.8f6330d5.js.map": "/seo-spider-react-app/static/js/main.8f6330d5.js.map"
+    "main.bd10e499.js.map": "/seo-spider-react-app/static/js/main.bd10e499.js.map"
   },
   "entrypoints": [
     "static/css/main.894ddd6a.css",
-    "static/js/main.8f6330d5.js"
+    "static/js/main.bd10e499.js"
   ]
 }
