@@ -44,9 +44,11 @@ function App() {
   const handleHideErroMsg = () => setState({ ...state, error: "" });
 
   return (
-    <div className="container px-4 md:px-0 max-w-6xl mx-auto">
-      <SubmitUrlForm handleSubmit={handleSubmit} loading={state.loading} />
-      <AnalyzeResultSection {...state} hideErroMsg={handleHideErroMsg} />
+    <div className="bg-gradient-to-b from-gray-100">
+      <div className="px-4 md:px-0 max-w-6xl mx-auto">
+        <SubmitUrlForm handleSubmit={handleSubmit} loading={state.loading} />
+        <AnalyzeResultSection {...state} hideErroMsg={handleHideErroMsg} />
+      </div>
     </div>
   );
 }
