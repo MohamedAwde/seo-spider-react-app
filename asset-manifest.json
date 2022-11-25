@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MohamedAwde.github.io/seo-spider-react-app/static/css/main.0eece628.css",
+    "main.js": "/MohamedAwde.github.io/seo-spider-react-app/static/js/main.5d0e5e34.js",
+    "index.html": "/MohamedAwde.github.io/seo-spider-react-app/index.html",
+    "main.0eece628.css.map": "/MohamedAwde.github.io/seo-spider-react-app/static/css/main.0eece628.css.map",
+    "main.5d0e5e34.js.map": "/MohamedAwde.github.io/seo-spider-react-app/static/js/main.5d0e5e34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eece628.css",
+    "static/js/main.5d0e5e34.js"
+  ]
+}
