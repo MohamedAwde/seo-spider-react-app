@@ -23,7 +23,7 @@ function App() {
 
     try {
       const { data } = await axios.post(
-        "https://seo-pider-nodejs.vercel.app/",
+        "https://seo-spider-nodejs-production.up.railway.app/",
         { url }
       );
       setState({ ...state, loading: false, data, error: "" });
