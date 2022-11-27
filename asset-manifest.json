@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/seo-spider-react-app/static/css/main.894ddd6a.css",
-    "main.js": "/seo-spider-react-app/static/js/main.bd10e499.js",
+    "main.css": "/seo-spider-react-app/static/css/main.4c1c9474.css",
+    "main.js": "/seo-spider-react-app/static/js/main.86ee049d.js",
     "index.html": "/seo-spider-react-app/index.html",
-    "main.894ddd6a.css.map": "/seo-spider-react-app/static/css/main.894ddd6a.css.map",
-    "main.bd10e499.js.map": "/seo-spider-react-app/static/js/main.bd10e499.js.map"
+    "main.4c1c9474.css.map": "/seo-spider-react-app/static/css/main.4c1c9474.css.map",
+    "main.86ee049d.js.map": "/seo-spider-react-app/static/js/main.86ee049d.js.map"
   },
   "entrypoints": [
-    "static/css/main.894ddd6a.css",
-    "static/js/main.bd10e499.js"
+    "static/css/main.4c1c9474.css",
+    "static/js/main.86ee049d.js"
   ]
 }
